@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Template Display System</title>
+  </head>
+  <body>
+    <h1><b>Hello! Welcome to Template display System</b></h1>
+
+    <h2>Click a Button to Redirect:</h2>
+
+    <!-- Button 1 redirects to /template1 -->
+    <!-- <button id="template1">Generic Template</button>
+    <script>
+      document
+        .getElementById("template1")
+        .addEventListener("click", function () {
+          window.location.href = "http://127.0.0.1:5000/genericTM";
+        });
+    </script> -->
+
+    <!-- <button id="generatePdf1">Generate PDF Generic</button>
+    <script>
+      document
+        .getElementById("generatePdf1")
+        .addEventListener("click", function () {
+          window.location.href = "http://127.0.0.1:5000/genericTM/generate_pdf";
+        });
+    </script> -->
+    <br />
+    <br />
+
+    <!-- Button 2 redirects to /template2 -->
+    <button id="newTemp">New Template</button>
+    <script>
+      document.getElementById("newTemp").addEventListener("click", function () {
+        window.location.href = "http://127.0.0.1:5000/newTemp";
+      });
+    </script>
+
+    <button id="IdealPage">View Ideal Page</button>
+    <script>
+      document
+        .getElementById("IdealPage")
+        .addEventListener("click", function () {
+          window.location.href = "http://127.0.0.1:5000/idealView";
+        });
+    </script>
+
+    <button id="Generic">Generic</button>
+    <script>
+      document.getElementById("Generic").addEventListener("click", function () {
+        window.location.href = "http://127.0.0.1:5000/generic";
+      });
+    </script>
+  </body>
+</html>
